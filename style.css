@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+header .home a{
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+}
+
+header .link ul{
+    display: flex;
+}
+
+header .link ul li{
+    margin-right: 15px;
+}
+
+header .link ul li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    width: 90%;
+
+}
+
+main .container .header{
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: #e3e3e3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+}
+
+main .container .item{
+    border: 1px solid black;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main .container .item [type]{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main .container .item #submit{
+    background-color: blue;
+    width: 80px;
+    color: white;
+    border: none;
+}
+
+.text{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: #e3e3e3;
+}
